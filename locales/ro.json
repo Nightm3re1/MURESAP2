@@ -1,0 +1,199 @@
+
+{
+  "Brand": {
+    "name": "Mureș Apartments"
+  },
+  "Navbar": {
+    "home": "Acasă",
+    "apartments": "Apartamente",
+    "discounts": "Reduceri",
+    "contact": "Contact",
+    "language": "Limbă",
+    "romanian": "Română",
+    "english": "Engleză"
+  },
+  "Hero": {
+    "title": "Descoperă confortul urban în inima Târgu Mureșului",
+    "subtitle": "Aproape de Cetatea Medievală, Parcul Central, Grădina Zoologică, Palatul Culturii, Piața Trandafirilor",
+    "cta": "Rezervă acum"
+  },
+  "Home": {
+    "aboutTitle": "Povestea Noastră",
+    "aboutText": "Bun venit la Mureș Apartments! Suntem pasionați să vă oferim o ședere unică și confortabilă în Târgu Mureș. Apartamentele noastre sunt atent proiectate și echipate pentru a vă face să vă simțiți ca acasă, fie că sunteți aici pentru afaceri sau pentru relaxare. Credem în oferirea unei note personale și a unui serviciu de înaltă calitate pentru a ne asigura că vizita dumneavoastră este memorabilă. Explorați farmecul orașului din cazările noastre convenabil amplasate și experimentați ospitalitatea românească la superlativ.",
+    "apartmentsSectionTitle": "Apartamentele Noastre"
+  },
+  "ApartmentsPage": {
+    "title": "Apartamentele Noastre",
+    "description": "Găsește locul perfect pentru șederea ta în Târgu Mureș.",
+    "noApartmentsAvailable": "Niciun apartament disponibil momentan."
+  },
+  "ApartmentCard": {
+    "detailsButton": "Detalii"
+  },
+  "ApartmentDetailPage": {
+    "galleryTitle": "Galerie",
+    "descriptionTitle": "Descriere",
+    "amenitiesTitle": "Facilități",
+    "mapTitle": "Locație",
+    "ctaDefault": "Rezervă Sejurul!",
+    "testimonialsSectionTitle": "Ce Spun Oaspeții Noștri",
+    "pricingSectionTitle": "Prețuri",
+    "amenities": {
+      "wifi": "Wi-Fi Gratuit",
+      "ac": "Aer Condiționat",
+      "parking": "Parcare Gratuită Garantată",
+      "whatsappSupport": "Suport WhatsApp 24/7",
+      "familyRooms": "Camere de Familie",
+      "nonSmokerRooms": "Camere Nefumători",
+      "terraceBalcony": "Terasă / Balcon",
+      "elevator": "Lift"
+    }
+  },
+  "DiscountsPage": {
+    "title": "Reduceri Exclusive pentru Sejururi Prelungite",
+    "subtitle": "Cu cât stați mai mult, cu atât economisiți mai mult. Alegeți oferta care se potrivește cel mai bine călătoriei dumneavoastră.",
+    "description": "Cu cât stați mai mult, cu atât economisiți mai mult. Alegeți oferta care se potrivește cel mai bine călătoriei dumneavoastră.",
+    "offers": {
+      "stay7pay6": {
+        "title": "Stai 7 nopți, Plătești pentru 6",
+        "description": "Bucură-te de o noapte gratuită când stai o săptămână întreagă."
+      },
+      "stay14pay12": {
+        "title": "Stai 14 nopți, Plătești pentru 12",
+        "description": "Primești două nopți gratuite pentru aventura ta de două săptămâni."
+      },
+      "stay21pay18": {
+        "title": "Stai 21 nopți, Plătești pentru 18",
+        "description": "Primești trei nopți gratuite când stai trei săptămâni."
+      },
+      "stay1month25off": {
+        "title": "Stai 1 Lună, Primești 25% Reducere",
+        "description": "Economisești 25% când rezervarea ta este pentru 30 de nopți sau mai mult."
+      }
+    },
+    "faqTitle": "De Ce Să Stai Mai Mult?",
+    "faq": {
+      "q1": "Cost Mai Mic pe Noapte",
+      "a1": "Sejururile prelungite reduc tariful pe noapte—economisești mai mult în fiecare zi.",
+      "q2": "Mai Mult Timp pentru Explorare",
+      "a2": "Bucură-te de un ritm mai lent și descoperă bijuteriile ascunse ale orașului.",
+      "q3": "Avantaje Gratuite Incluse",
+      "a3": "Wi-Fi gratuit de mare viteză, parcare privată și check-out prioritar (la cerere)."
+    },
+    "footerCta": "Rezervă-ți sejurul acum!",
+    "tableHeaderIcon": "Pictogramă",
+    "tableHeaderOffer": "Ofertă",
+    "tableHeaderDescription": "Descriere"
+  },
+  "ContactPage": {
+    "title": "Contactează-ne",
+    "description": "Ai întrebări sau vrei să rezervi șederea? Ia legătura cu noi!",
+    "formTitle": "Formular de Contact",
+    "hostInfoTitle": "Informații Gazdă",
+    "phone": "Telefon",
+    "email": "Email",
+    "socialMedia": "Social Media"
+  },
+  "SignupForm": {
+    "fullNameLabel": "Nume Complet",
+    "fullNamePlaceholder": "Popescu Ion",
+    "emailLabel": "Email",
+    "emailPlaceholder": "ion.popescu@exemplu.com",
+    "phoneLabel": "Telefon",
+    "phonePlaceholder": "+40 123 456 789",
+    "apartmentLabel": "Apartament Dorit",
+    "selectApartment": "Selectează un apartament",
+    "datesLabel": "Perioada Dorită",
+    "datePlaceholder": "Alege un interval",
+    "messageLabel": "Mesaj",
+    "messagePlaceholder": "Mesajul tău...",
+    "submitButton": "Trimite Cererea",
+    "submitSuccess": "Cerere trimisă cu succes!",
+    "submitError": "Eroare la trimiterea cererii. Te rugăm să încerci din nou.",
+    "submitSuccessDescription": "Am primit cererea dumneavoastră pentru {apartmentName}."
+  },
+  "Cta11": {
+    "defaultTitle": "Gata să experimentezi Târgu Mureș?",
+    "defaultDescription": "Rezervă-ți astăzi apartamentul confortabil și elegant și explorează minunățiile orașului.",
+    "primaryButton": "Rezervă Acum",
+    "secondaryButton": "Află Mai Multe"
+  },
+  "Footer": {
+    "contactInfo": "Informații de Contact",
+    "address": "Târgu Mureș, România",
+    "quickLinks": "Link-uri Utile",
+    "legalAndPolicies": "Legal & Politici",
+    "termsAndConditions": "Termeni și Condiții",
+    "cookiePolicy": "Politică Cookie",
+    "socialMedia": "Urmărește-ne",
+    "copyright": "© {year} Mureș Apartments. Toate drepturile rezervate.",
+    "copyrightPlaceholder": "Toate drepturile rezervate."
+  },
+  "Common": {
+    "loading": "Se încarcă...",
+    "error": "A apărut o eroare.",
+    "notFound": "Pagina Nu A Fost Găsită",
+    "fromLocation": "din"
+  },
+  "Pricing": {
+    "nightlyRate": "Preț",
+    "perNight": "noapte",
+    "nightlyDescription": "Totul inclus. Fără taxe ascunse. Rezervă-ți șederea memorabilă astăzi!",
+    "sleepsGuests": "Capacitate 1-4 persoane",
+    "fullAccess": "Acces complet la apartament",
+    "allAmenities": "Toate facilitățile listate incluse",
+    "flexibleCheckInOut": "Check-in/out flexibil (la cerere)",
+    "bookNow": "Rezervă Acum",
+    "checkDiscounts": "Vezi Reducerile"
+  },
+  "TermsAndConditionsPage": {
+    "title": "Termeni și Condiții",
+    "introductionTitle": "Introducere",
+    "introductionContent": "Bun venit la Mureș Apartments. Prin rezervarea sau utilizarea serviciilor noastre, sunteți de acord cu acești Termeni și Condiții. Vă rugăm să îi citiți cu atenție.",
+    "bookingPaymentTitle": "Rezervare & Plată",
+    "bookingPaymentContent1": "Plata se efectuează direct la gazdă, în persoană, la sosire (fără plată online în avans).",
+    "bookingPaymentContent2": "Metode de plată acceptate: Numerar sau transfer direct cu cardul bancar (credit/debit).",
+    "bookingPaymentContent3": "Prețurile includ toate taxele obligatorii (fără costuri ascunse).",
+    "cancellationTitle": "Anulare & Modificări",
+    "cancellationContent1": "Anulare gratuită cu până la 10 zile înainte de check-in.",
+    "cancellationContent2": "Anulările în termen de 10 zile atrag o taxă de 50%.",
+    "cancellationContent3": "Neprezentarea sau anulările în aceeași zi se taxează integral.",
+    "cancellationContent4": "Pentru a modifica o rezervare, vă rugăm să contactați gazda cu cel puțin 10 zile în avans.",
+    "checkInCheckOutTitle": "Check-In & Check-Out",
+    "checkInCheckOutContent1": "Check-in standard: de la ora 15:00; check-out: până la ora 11:00.",
+    "checkInCheckOutContent2": "Check-in devreme sau check-out târziu pot fi disponibile la cerere (în funcție de disponibilitate și taxe).",
+    "guestResponsibilitiesTitle": "Responsabilitățile Oaspetelui",
+    "guestResponsibilitiesContent1": "Sunteți de acord să tratați proprietatea și conținutul acesteia cu grijă.",
+    "guestResponsibilitiesContent2": "Fumatul interzis în interior; ore de liniște între 22:00 și 08:00.",
+    "guestResponsibilitiesContent3": "Sunteți responsabil pentru orice daune cauzate de dumneavoastră sau de grupul dumneavoastră.",
+    "liabilityTitle": "Răspundere",
+    "liabilityContent1": "Deținem asigurare completă de proprietate și răspundere civilă.",
+    "liabilityContent2": "Nu suntem răspunzători pentru vătămări corporale, pierderi sau daune aduse bunurilor oaspeților dincolo de ceea ce acoperă asigurarea noastră.",
+    "governingLawTitle": "Legea Aplicabilă",
+    "governingLawContent1": "Acești termeni sunt guvernați de legislația română.",
+    "governingLawContent2": "Orice dispute vor fi soluționate în instanțele din Județul Mureș."
+  },
+  "CookiePolicyPage": {
+    "title": "Politică Cookie",
+    "whatAreCookiesTitle": "Ce Sunt Cookie-urile?",
+    "whatAreCookiesContent": "Cookie-urile sunt fișiere text mici stocate pe dispozitivul dumneavoastră care ajută site-ul nostru să își amintească preferințele dumneavoastră și să vă îmbunătățească experiența.",
+    "howWeUseCookiesTitle": "Cum Folosim Cookie-urile",
+    "essentialCookies": "Cookie-uri Esențiale: Permit funcționalitatea de bază a site-ului (ex: navigarea paginilor, securitate).",
+    "performanceCookies": "Cookie-uri de Performanță: Colectează date anonime despre utilizarea site-ului pentru a ne ajuta să îmbunătățim viteza și conținutul.",
+    "marketingCookies": "Cookie-uri de Marketing: (Dacă sunt utilizate) Urmăresc referințele și performanța publicitară pentru a vă arăta oferte relevante.",
+    "cookieManagementTitle": "Gestionarea Cookie-urilor",
+    "cookieManagementContent1": "Puteți controla și șterge cookie-urile prin setările browserului dumneavoastră în orice moment.",
+    "cookieManagementContent2": "Vă rugăm să rețineți că dezactivarea cookie-urilor esențiale poate afecta performanța site-ului.",
+    "thirdPartyCookiesTitle": "Cookie-uri Terțe",
+    "thirdPartyCookiesContent": "Putem permite terților de încredere (ex: furnizori de analize) să seteze cookie-uri pe site-ul nostru. Aceste cookie-uri ne ajută să înțelegem cum vizitatorii utilizează site-ul și să îl optimizăm corespunzător.",
+    "updatesToPolicyTitle": "Actualizări ale Acestei Politici",
+    "updatesToPolicyContent": "Putem actualiza Politica noastră Cookie din când în când. Orice modificări vor fi postate aici cu o dată de „Ultima Actualizare” revizuită.",
+    "lastUpdated": "Ultima actualizare: 25 Mai, 2025"
+  },
+  "CookieConsent": {
+    "messageLine1": "Folosim cookie-uri pentru a vă îmbunătăți experiența.",
+    "okButton": "OK",
+    "learnMoreButton": "Află Mai Multe",
+    "ariaLabel": "Banner consimțământ cookie-uri"
+  }
+}

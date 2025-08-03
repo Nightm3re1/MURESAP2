@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* White */
+    --foreground: 0 0% 10%; /* Dark Grey (Almost Black) */
+
+    --card: 0 0% 100%; /* White */
+    --card-foreground: 0 0% 10%; /* Dark Grey (Almost Black) */
+
+    --popover: 0 0% 100%; /* White */
+    --popover-foreground: 0 0% 10%; /* Dark Grey (Almost Black) */
+
+    --primary: 0 0% 9%; /* Very Dark Grey */
+    --primary-foreground: 0 0% 98%; /* Almost White */
+
+    --secondary: 0 0% 96.1%; /* Very Light Grey */
+    --secondary-foreground: 0 0% 9%; /* Very Dark Grey */
+
+    --muted: 0 0% 96.1%; /* Very Light Grey */
+    --muted-foreground: 0 0% 45.1%; /* Medium Grey */
+
+    --accent: 0 0% 9%; /* Very Dark Grey (Same as primary) */
+    --accent-foreground: 0 0% 98%; /* Almost White */
+
+    --destructive: 0 84.2% 60.2%; /* Red (Kept for destructive actions) */
+    --destructive-foreground: 0 0% 98%; /* Almost White */
+
+    --border: 0 0% 89.8%; /* Light Grey */
+    --input: 0 0% 89.8%; /* Light Grey */
+    --ring: 0 0% 9%; /* Very Dark Grey (For focus rings) */
+
+    --radius: 0.5rem;
+
+    --chart-1: 0 0% 30%;
+    --chart-2: 0 0% 40%;
+    --chart-3: 0 0% 50%;
+    --chart-4: 0 0% 60%;
+    --chart-5: 0 0% 70%;
+
+    /* Sidebar specific colors */
+    --sidebar-background: 0 0% 97%;
+    --sidebar-foreground: 0 0% 10%;
+    --sidebar-primary: 0 0% 9%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 0 0% 90%;
+    --sidebar-accent-foreground: 0 0% 9%;
+    --sidebar-border: 0 0% 88%;
+    --sidebar-ring: 0 0% 9%;
+  }
+
+  .dark {
+    --background: 0 0% 3.9%; /* Almost Black */
+    --foreground: 0 0% 95%; /* Light Grey (Almost White) */
+
+    --card: 0 0% 7%; /* Slightly Lighter Dark Grey */
+    --card-foreground: 0 0% 95%; /* Light Grey (Almost White) */
+
+    --popover: 0 0% 3.9%; /* Almost Black */
+    --popover-foreground: 0 0% 95%; /* Light Grey (Almost White) */
+
+    --primary: 0 0% 98%; /* Almost White */
+    --primary-foreground: 0 0% 9%; /* Very Dark Grey */
+
+    --secondary: 0 0% 14.9%; /* Dark Grey */
+    --secondary-foreground: 0 0% 95%; /* Light Grey (Almost White) */
+
+    --muted: 0 0% 14.9%; /* Dark Grey */
+    --muted-foreground: 0 0% 62.7%; /* Medium-Light Grey */
+
+    --accent: 0 0% 98%; /* Almost White (Same as primary) */
+    --accent-foreground: 0 0% 9%; /* Very Dark Grey */
+    
+    --destructive: 0 72.2% 50.6%; /* Red (Kept for destructive actions) */
+    --destructive-foreground: 0 0% 98%; /* Almost White */
+
+    --border: 0 0% 14.9%; /* Dark Grey */
+    --input: 0 0% 14.9%; /* Dark Grey */
+    --ring: 0 0% 98%; /* Almost White (For focus rings, same as dark primary) */
+
+    --chart-1: 0 0% 75%;
+    --chart-2: 0 0% 65%;
+    --chart-3: 0 0% 55%;
+    --chart-4: 0 0% 45%;
+    --chart-5: 0 0% 35%;
+
+    /* Sidebar specific colors */
+    --sidebar-background: 0 0% 5%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 0 0% 98%;
+    --sidebar-primary-foreground: 0 0% 9%;
+    --sidebar-accent: 0 0% 20%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 0 0% 18%;
+    --sidebar-ring: 0 0% 98%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply text-foreground font-sans; /* Use Inter from layout. Removed bg-background */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    flex-grow: 1;
+  }
+}

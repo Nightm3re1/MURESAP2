@@ -1,0 +1,199 @@
+
+{
+  "Brand": {
+    "name": "Mureș Apartments"
+  },
+  "Navbar": {
+    "home": "Home",
+    "apartments": "Apartments",
+    "discounts": "Discounts",
+    "contact": "Contact",
+    "language": "Language",
+    "romanian": "Romanian",
+    "english": "English"
+  },
+  "Hero": {
+    "title": "Discover urban comfort in the heart of Târgu Mureș",
+    "subtitle": "Near Medieval Fortress, Central Park, Zoo, Palace of Culture, Rose Square",
+    "cta": "Book Now"
+  },
+  "Home": {
+    "aboutTitle": "Our Story",
+    "aboutText": "Welcome to Mureș Apartments! We are passionate about providing you with a unique and comfortable stay in Târgu Mureș. Our apartments are carefully designed and equipped to make you feel at home, whether you're here for business or leisure. We believe in offering a personal touch and high-quality service to ensure your visit is memorable. Explore the city's charm from our conveniently located accommodations and experience Romanian hospitality at its best.",
+    "apartmentsSectionTitle": "Our Apartments"
+  },
+  "ApartmentsPage": {
+    "title": "Our Apartments",
+    "description": "Find the perfect place for your stay in Târgu Mureș.",
+    "noApartmentsAvailable": "No apartments available at the moment."
+  },
+  "ApartmentCard": {
+    "detailsButton": "Details"
+  },
+  "ApartmentDetailPage": {
+    "galleryTitle": "Gallery",
+    "descriptionTitle": "Description",
+    "amenitiesTitle": "Amenities",
+    "mapTitle": "Location",
+    "ctaDefault": "Book Your Stay!",
+    "testimonialsSectionTitle": "What Our Guests Say",
+    "pricingSectionTitle": "Pricing",
+    "amenities": {
+      "wifi": "Free Wi-Fi",
+      "ac": "Air Conditioning",
+      "parking": "Free Guaranteed Parking",
+      "whatsappSupport": "24/7 WhatsApp Support",
+      "familyRooms": "Family Rooms",
+      "nonSmokerRooms": "Non-Smoker Rooms",
+      "terraceBalcony": "Terrace / Balcony",
+      "elevator": "Elevator"
+    }
+  },
+  "DiscountsPage": {
+    "title": "Exclusive Discounts for Longer Stays",
+    "subtitle": "The longer you stay, the more you save. Choose the deal that fits your trip best.",
+    "description": "The longer you stay, the more you save. Choose the deal that fits your trip best.",
+    "offers": {
+      "stay7pay6": {
+        "title": "Stay 7 nights, Pay for 6",
+        "description": "Enjoy one free night when you stay a full week."
+      },
+      "stay14pay12": {
+        "title": "Stay 14 nights, Pay for 12",
+        "description": "Get two free nights on your two-week adventure."
+      },
+      "stay21pay18": {
+        "title": "Stay 21 nights, Pay for 18",
+        "description": "Receive three free nights when you stay three weeks."
+      },
+      "stay1month25off": {
+        "title": "Stay 1 Month, Get 25% Off",
+        "description": "Save 25% when your booking is 30 nights or more."
+      }
+    },
+    "faqTitle": "Why Stay Longer?",
+    "faq": {
+      "q1": "Lower Cost per Night",
+      "a1": "Longer stays reduce your nightly rate—save more each day.",
+      "q2": "More Time to Explore",
+      "a2": "Enjoy a slower pace and discover hidden gems in the city.",
+      "q3": "Complimentary Perks Included",
+      "a3": "Free high-speed Wi-Fi, private parking, and priority check-out (on request)."
+    },
+    "footerCta": "Book your stay now and save big!",
+    "tableHeaderIcon": "Icon",
+    "tableHeaderOffer": "Offer",
+    "tableHeaderDescription": "Description"
+  },
+  "ContactPage": {
+    "title": "Contact Us",
+    "description": "Have questions or want to book your stay? Get in touch!",
+    "formTitle": "Inquiry Form",
+    "hostInfoTitle": "Host Information",
+    "phone": "Phone",
+    "email": "Email",
+    "socialMedia": "Social Media"
+  },
+  "SignupForm": {
+    "fullNameLabel": "Full Name",
+    "fullNamePlaceholder": "John Doe",
+    "emailLabel": "Email",
+    "emailPlaceholder": "john.doe@example.com",
+    "phoneLabel": "Phone",
+    "phonePlaceholder": "+40 123 456 789",
+    "apartmentLabel": "Desired Apartment",
+    "selectApartment": "Select an apartment",
+    "datesLabel": "Desired Dates",
+    "datePlaceholder": "Pick a date range",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Your message...",
+    "submitButton": "Send Inquiry",
+    "submitSuccess": "Inquiry sent successfully!",
+    "submitError": "Failed to send inquiry. Please try again.",
+    "submitSuccessDescription": "We've received your inquiry for {apartmentName}."
+  },
+  "Cta11": {
+    "defaultTitle": "Ready to Experience Târgu Mureș?",
+    "defaultDescription": "Book your comfortable and stylish apartment today and explore the city's wonders.",
+    "primaryButton": "Book Now",
+    "secondaryButton": "Learn More"
+  },
+  "Footer": {
+    "contactInfo": "Contact Information",
+    "address": "Târgu Mureș, Romania",
+    "quickLinks": "Quick Links",
+    "legalAndPolicies": "Legal & Policies",
+    "termsAndConditions": "Terms & Conditions",
+    "cookiePolicy": "Cookie Policy",
+    "socialMedia": "Follow Us",
+    "copyright": "© {year} Mureș Apartments. All rights reserved.",
+    "copyrightPlaceholder": "All rights reserved."
+  },
+  "Common": {
+    "loading": "Loading...",
+    "error": "An error occurred.",
+    "notFound": "Page Not Found",
+    "fromLocation": "from"
+  },
+  "Pricing": {
+    "nightlyRate": "Pricing",
+    "perNight": "night",
+    "nightlyDescription": "All inclusive. No hidden fees. Book your memorable stay today!",
+    "sleepsGuests": "Sleeps 1-4 guests",
+    "fullAccess": "Full apartment access",
+    "allAmenities": "All listed amenities included",
+    "flexibleCheckInOut": "Flexible check-in/out (on request)",
+    "bookNow": "Book Your Stay",
+    "checkDiscounts": "Check for Discounts"
+  },
+  "TermsAndConditionsPage": {
+    "title": "Terms & Conditions",
+    "introductionTitle": "Introduction",
+    "introductionContent": "Welcome to Mureș Apartments. By booking or using our services, you agree to these Terms & Conditions. Please read them carefully.",
+    "bookingPaymentTitle": "Booking & Payment",
+    "bookingPaymentContent1": "Payment is settled directly with the host in person upon arrival (no advance online payment).",
+    "bookingPaymentContent2": "Accepted payment methods: Cash or direct bank card transfer (credit/debit).",
+    "bookingPaymentContent3": "Prices include all mandatory fees (no hidden charges).",
+    "cancellationTitle": "Cancellation & Changes",
+    "cancellationContent1": "Free cancellation up to 10 days before check-in.",
+    "cancellationContent2": "Cancellations within 10 days incur a 50% fee.",
+    "cancellationContent3": "No-show or same-day cancellations are charged in full.",
+    "cancellationContent4": "To modify a booking, please contact the host at least 10 days in advance.",
+    "checkInCheckOutTitle": "Check-In & Check-Out",
+    "checkInCheckOutContent1": "Standard check-in: from 3 PM; check-out: by 11 AM.",
+    "checkInCheckOutContent2": "Early check-in or late check-out may be available on request (subject to availability and fees).",
+    "guestResponsibilitiesTitle": "Guest Responsibilities",
+    "guestResponsibilitiesContent1": "You agree to treat the property and its contents with care.",
+    "guestResponsibilitiesContent2": "No smoking indoors; quiet hours from 10 PM to 8 AM.",
+    "guestResponsibilitiesContent3": "You are responsible for any damage caused by you or your party.",
+    "liabilityTitle": "Liability",
+    "liabilityContent1": "We carry comprehensive property and liability insurance.",
+    "liabilityContent2": "We are not liable for personal injury, loss, or damage to guests’ belongings beyond what our insurance covers.",
+    "governingLawTitle": "Governing Law",
+    "governingLawContent1": "These terms are governed by Romanian law.",
+    "governingLawContent2": "Any disputes shall be resolved in the courts of Mureș County."
+  },
+  "CookiePolicyPage": {
+    "title": "Cookie Policy",
+    "whatAreCookiesTitle": "What Are Cookies?",
+    "whatAreCookiesContent": "Cookies are small text files stored on your device that help our website remember your preferences and improve your experience.",
+    "howWeUseCookiesTitle": "How We Use Cookies",
+    "essentialCookies": "Essential Cookies: Enable core site functionality (e.g., page navigation, security).",
+    "performanceCookies": "Performance Cookies: Collect anonymous data on site usage to help us improve speed and content.",
+    "marketingCookies": "Marketing Cookies: (If used) Track referrals and ad performance to show you relevant offers.",
+    "cookieManagementTitle": "Cookie Management",
+    "cookieManagementContent1": "You can control and delete cookies through your browser settings at any time.",
+    "cookieManagementContent2": "Please note that disabling essential cookies may affect site performance.",
+    "thirdPartyCookiesTitle": "Third-Party Cookies",
+    "thirdPartyCookiesContent": "We may allow trusted third parties (e.g., analytics providers) to set cookies on our site. These cookies help us understand how visitors use the site and optimize it accordingly.",
+    "updatesToPolicyTitle": "Updates to This Policy",
+    "updatesToPolicyContent": "We may update our Cookie Policy from time to time. Any changes will be posted here with a revised “Last Updated” date.",
+    "lastUpdated": "Last updated: May 25, 2025"
+  },
+  "CookieConsent": {
+    "messageLine1": "We use cookies to improve your experience.",
+    "okButton": "OK",
+    "learnMoreButton": "Learn More",
+    "ariaLabel": "Cookie consent banner"
+  }
+}
