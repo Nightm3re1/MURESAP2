@@ -1,4 +1,3 @@
-
 import { apartments } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
@@ -6,18 +5,10 @@ import ApartmentDetailClientContent from './apartment-detail-client-content';
 import { Meteors } from '@/components/ui/meteors';
 import { locales } from '@/i18n'; // Import locales
 
-interface ApartmentDetailPageProps {
-  params: {
-    slug: string;
-    locale: string;
-  };
-  searchParams?: { [key: string]: string | string[] | undefined };
-}
-
+// Generate all locale/slug combinations for static routing
 export async function generateStaticParams() {
   const params = [];
-  // Use imported locales constant
-  for (const locale of locales) { 
+  for (const locale of locales) {
     for (const apartment of apartments) {
       params.push({ locale, slug: apartment.slug });
     }
@@ -25,24 +16,20 @@ export async function generateStaticParams() {
   return params;
 }
 
-export async function generateMetadata({ params }: ApartmentDetailPageProps): Promise<Metadata> {
+// Generate metadata (title, description, open graph) for each page
+export async function generateMetadata({ params }: { params: { slug: string; locale: string } }): Promise<Metadata> {
   const { slug, locale } = params;
-
   const apartment = apartments.find((ap) => ap.slug === slug);
 
   if (!apartment) {
-    return {
-      title: 'Apartment Not Found',
-    };
+    return { title: 'Apartment Not Found' };
   }
-  
+
   const name = apartment.name[locale] || apartment.name.en;
   const rawDescription = apartment.description[locale] || apartment.description.en;
-  // Ensure description is a string and trim it for meta
-  const metaDescription = typeof rawDescription === 'string' 
-    ? rawDescription.replace(/\*\*|##|###|\n/g, " ").substring(0, 160) // Remove markdown, newlines for meta
+  const metaDescription = typeof rawDescription === 'string'
+    ? rawDescription.replace(/\*\*|##|###|\n/g, ' ').substring(0, 160)
     : 'View details for this apartment.';
-
 
   return {
     title: name,
@@ -55,19 +42,21 @@ export async function generateMetadata({ params }: ApartmentDetailPageProps): Pr
   };
 }
 
-
-export default async function ApartmentDetailPage({ params, searchParams }: ApartmentDetailPageProps) {
+// Main page component; params and searchParams are inferred correctly by Next.js
+export default async function ApartmentDetailPage(
+  { params, searchParams }: { params: { slug: string; locale: string }; searchParams?: Record<string, string | string[] | undefined> }
+) {
   const apartment = apartments.find((ap) => ap.slug === params.slug);
 
   if (!apartment) {
     notFound();
   }
-  
+
   return (
-    <div className="relative bg-background min-h-screen flex-grow"> 
+    <div className="relative bg-background min-h-screen flex-grow">
       <Meteors number={60} className="opacity-70 -z-10 absolute inset-0" />
       <ApartmentDetailClientContent
-        apartment={apartment}
+        apartment={apartment!}
         slug={params.slug}
       />
     </div>
